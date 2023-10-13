@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: #F0F8FF;
     margin-top: 50px;
     font-family: 'Lato';
 }
@@ -36,4 +36,9 @@ body {
 
 button:focus {
     border: 1px solid #333;
+}
+
+.headertodo {
+    text-align: center;
+    color: #A3C1AD;
 }
