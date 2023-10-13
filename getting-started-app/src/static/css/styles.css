@@ -34,9 +34,3 @@ body {
 button:focus {
     border: 1px solid #333;
 }
-.centered {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; 
-}

@@ -3,7 +3,7 @@ function App() {
     return (
         <Container>
             <Row>
-                <Col md={{ offset: 3, span: 6 }} className="centered">
+                <Col md={{ offset: 3, span: 6 }}>
                     <TodoListCard />
                 </Col>
             </Row>
