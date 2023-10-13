@@ -2,6 +2,10 @@ body {
     background-color: #F0F8FF;
     margin-top: 50px;
     font-family: 'Lato';
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
 }
 
 .item {
@@ -41,4 +45,20 @@ button:focus {
 .headertodo {
     text-align: center;
     color: #A3C1AD;
+}
+
+header {
+    background-color: rgb(24, 100, 94);
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+footer {
+    background-color: rgb(24, 100, 94);
+    padding: 10px;
+    text-align: center;
+    color: white;
+    margin-top: auto;
 }
