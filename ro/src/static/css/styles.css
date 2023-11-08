@@ -1,11 +1,15 @@
 body {
-    background-color: #f4f4f4;
+    background-color: #F0F8FF;
     margin-top: 50px;
     font-family: 'Lato';
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
 }
 
 .item {
-    background-color: rgb(106, 90, 205);
+    background-color: white;
     padding: 15px;
     margin-bottom: 15px;
     border: transparent;
@@ -36,4 +40,25 @@ body {
 
 button:focus {
     border: 1px solid #333;
+}
+
+.headertodo {
+    text-align: center;
+    color: #A3C1AD;
+}
+
+header {
+    background-color: rgb(24, 100, 94);
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+footer {
+    background-color: rgb(24, 100, 94);
+    padding: 10px;
+    text-align: center;
+    color: white;
+    margin-top: auto;
 }
